@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Tejaswini" />
+    <meta
+      name="description"
+      content="Hurray I'm starting my web development journey and this is crazy"
+    />
+    <link rel="icon" href="./images//html.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Enjoy Learning HTML</h1>
+
+      <nav aria-label="primary-navigation">
+        <h1>Primary Navigation</h1>
+        <ul>
+          <li>
+            <a href="#section1">About</a>
+          </li>
+          <li>
+            <a href="#section2">Lists</a>
+          </li>
+          <li>
+            <a href="#section3">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <article id="section1">
+        <h2>By the way HTML stands for <em>Hyper Text Markup Language</em></h2>
+        <p>JavaScript follows HTML and CSS</p>
+        <hr />
+        <section>
+          <h3>HTML!!!</h3>
+          <p>
+            I'm loving it <br />&nbsp;&nbsp;&nbsp;.... This is my lang
+            <br />&nbsp;&nbsp;.... No one is gng to stop me
+          </p>
+          <hr />
+          <h4>HTML!!</h4>
+          <p>I'm already learning it</p>
+          <hr />
+          <h5>HTML!</h5>
+          <ul>
+            <li>
+              <p>
+                I will earn a living through <abbr title="JavaScript">JS</abbr>
+              </p>
+            </li>
+            <li>
+              <address>
+                Vijayawada-Ongole Road, <br />SriPuram, <br />Ongole,
+                <br />Andhra Pradesh 613401
+              </address>
+            </li>
+          </ul>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> i code per day!!!
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and write code for
+                <time datetime="PT3H">3 hrs</time> every morning
+              </p>
+            </details>
+          </aside>
+
+          <hr />
+          <!--This is my first comment-->
+          <h6><abbr title="Hyper Text MarkUp Language">HTML</abbr></h6>
+          <p>I will be a great <strong>Web Developer</strong></p>
+          <!--Comments are fun in JS-->
+          <hr />
+        </section>
+      </article>
+      <article id="section2">
+        <h2>LISTS</h2>
+        <ol>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+        </ol>
+        <hr />
+        <p>Let me tell you how :</p>
+        <ul>
+          <li>Wake up early in the morning</li>
+          <li>Be consistent with <abbr title="JavaScript">JS</abbr></li>
+          <li>Have the motivation awake</li>
+        </ul>
+        <hr />
+        <dl>
+          <dt>Banglore</dt>
+          <dd>Home Town</dd>
+          <dt>Delhi</dt>
+          <dd>Schooling and friends</dd>
+          <dt>Noida</dt>
+          <dd>Higher Education & Job</dd>
+        </dl>
+        <hr />
+        <ul>
+          <li>
+            <abbr title="Hyper Text MarkUp Language"
+              ><a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                style="color: blue"
+                >HTML</a
+              ></abbr
+            >
+          </li>
+          <li>
+            <abbr title="Cascading StyleSheet"
+              ><a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                style="color: blue"
+                >CSS</a
+              ></abbr
+            >
+          </li>
+          <li>
+            <abbr title="JavaScript"
+              ><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                style="color: blue"
+                >JS</a
+              ></abbr
+            >
+          </li>
+        </ul>
+      </article>
+      <hr />
+
+      <article id="section3">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+
+            <p>
+              <label for="firstName">Fisrt Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name..."
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                input="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last Name..."
+                required
+                autocomplete="on"
+                autofocus="true"
+              />
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </p>
+            <p>
+              <label for="telephone">Phone Number:</label>
+              <input
+                name="telephone"
+                id="telephone"
+                type="tel"
+                placeholder="555-555-5555"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+            </p>
+            <p>
+              <label for="decade">Favorite Decade:</label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                min="1950"
+                max="2020"
+                step="10"
+                value="1980"
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite Coffee:</label>
+              <select name="coffee" id="coffee" multiple="true" size="3">
+                <optgroup label="Coffees">
+                  <option value="regularCoffee">Regular Coffee</option>
+                  <option value="icedTea" selected>Iced Tea</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                  <option value="latte">Latte</option>
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="cortado">Cortado</option>
+                  <option value="americano">Americano</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+            <p>
+              <label for="coffee">Favorite Coffee:</label>
+              <input type="text" name="coffee" id="coffee" list="coffee-list" />
+              <datalist id="coffee-list">
+                <option value="coffee"></option>
+                <option value="back-coffee"></option>
+                <option value="latte"></option>
+                <option value="cappuccino"></option>
+              </datalist>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>What is your favorite food?</legend>
+            <p>
+              <input type="radio" name="food" id="tacos" value="tacos" />
+              <label for="tacos">Tacos</label>
+              <input type="radio" name="food" id="banana" value="Banana" />
+              <label for="banana">Banana</label>
+              <input type="radio" name="food" id="paniPuri" value="Pani Puri" />
+              <label for="paniPuri">Pani Puri</label>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Do you have pets?</legend>
+            <input type="checkbox" name="pets" id="dog" value="dog" />
+            <label for="dog">Dog</label>
+            <input type="checkbox" name="pets" id="cat" value="cat" />
+            <label for="cat">Cat</label>
+            <input type="checkbox" name="pets" id="fish" value="fish" />
+            <label for="fish">Fish</label>
+          </fieldset>
+          <fieldset>
+            <legend>Send me a note</legend>
+            <label for="message">Your Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Type Your Message Here"
+            ></textarea>
+          </fieldset>
+          <br />
+          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Post
+          </button>
+          <button type="reset">Reset</button>
+        </form>
+        <hr />
+      </article>
+      <table>
+        <caption>
+          Awards
+        </caption>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>Title</th>
+            <th>Winner</th>
+            <th>Movie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th rowspan="5">Oscar</th>
+            <td>Best Supporting Actor</td>
+            <td>Ke Huy Quan</td>
+            <td>Everything Everywhere All at Once</td>
+          </tr>
+          <tr>
+            <td>Best Supporting Actress</td>
+            <td>Jamie Lee Curtis</td>
+            <td>Everything Everywhere All at Once</td>
+          </tr>
+          <tr>
+            <td>Best actor</td>
+            <td>Brendan Fraser</td>
+            <td>The Whale</td>
+          </tr>
+          <tr>
+            <td>Best actress</td>
+            <td>Michelle Yeoh</td>
+            <td>Everything Everywhere All at Once</td>
+          </tr>
+          <tr>
+            <td>Best picture</td>
+            <td>Movie</td>
+            <td>Everything Everywhere All at Once</td>
+          </tr>
+          <tr>
+            <th rowspan="5">Golden Globes</th>
+            <td>Best supporting actor</td>
+            <td>Ke Huy Quan</td>
+            <td>Everything Everywhere All at Once</td>
+          </tr>
+          <tr>
+            <td>Best supporting actress</td>
+            <td>Angela Bassett</td>
+            <td>Black Panther: Wakanda Forever</td>
+          </tr>
+          <tr>
+            <td>Best screenplay</td>
+            <td>Martin McDonagh</td>
+            <td>The Banshees of Inisherin</td>
+          </tr>
+          <tr>
+            <td>Best director</td>
+            <td>Steven Spielberg</td>
+            <td>The Fabelmans</td>
+          </tr>
+          <tr>
+            <td>Best original song</td>
+            <td>Naatu Naatu</td>
+            <td>RRR</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th colspan="4">Congratulations to all the winners!!!</th>
+        </tfoot>
+      </table>
+    </main>
+
+    <footer>
+      &lt;&lt;&lt; &copy; <a href="about.html">Tejaswini</a> &gt;&gt;&gt;
+      <hr />
+      <p>
+        <a href="#">Back To The Main Screen</a>
+      </p>
+    </footer>
+  </body>
+</html>

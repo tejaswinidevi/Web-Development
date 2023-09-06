@@ -1,0 +1,15 @@
+html{
+    font-size: 30px;
+    font-style: italic;
+}
+body{
+    background-color: aquamarine;
+    color: black
+}
+
+table, tr, th, td, caption{
+    border: 1px solid red;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
