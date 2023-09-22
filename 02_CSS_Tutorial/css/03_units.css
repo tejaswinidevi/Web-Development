@@ -1,0 +1,45 @@
+header {
+    width: 80%;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 5rem;
+    padding: 1em;
+}
+
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2em;
+}
+
+/* here rem, em and % are relative lenghts and px alone is absolute length unit. 
+
+The absolute length units are fixed and a length expressed in any of these
+will appear as exactly that size. 
+
+Relative length units specify a length relative to another length property. 
+Relative length units scale better between different rendering medium.
+
+em -  Relative to the font-size of the element 
+(2em means 2 times the size of the current font) 
+
+Ex: h1 has font size of 5 rem which means 5 times the font-size of root element
+and padding of h1 is declared as 1em which is relative to the font-size of the 
+h1 element and not the root element
+
+rem	- Relative to font-size of the root element
+
+Ex: here p is an element inside main element. so when main is set to 2rem
+main's font-size should be 2 times the root element.
+p is set to 2 em and as p is inside main, p's font-size = 2 times the font-size of 
+main and p's font-size = 2*2 times the font-size of root element
+
+rem is usually used for all the properties and em is mostly used for padding and 
+margins
+
+*/

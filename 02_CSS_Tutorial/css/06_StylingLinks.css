@@ -1,0 +1,28 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    cursor:progress;
+    color: blue;
+}
+
+a:visited {
+ color: purple;
+}
+
+a:hover {
+    color: greenyellow;
+    background-color:hotpink
+}
+
+a:active, a:focus {
+    color: pink;
+}
+
+/* text-decoration none removes the default underline under a url 
+cursor is when we hover over the link, a pointer will come. we can set the cursor 
+to whatever we want
+*/

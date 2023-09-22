@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+}
+
+
+.container {
+    border: 10px double red;
+    /* border-top-width: 15px;
+    border-left-color: pink;
+    border-left-style: ridge;
+    border-right: 5px dotted;
+    border-bottom: 10px double green; */
+    font-size: 1.5rem;
+    /* margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em; */
+    /* padding: 1.5em 2em 5em 4em;
+    /* margin: 1.5em 2em 2em 2em; */
+    /* margin: 1.5em 2em; */
+    margin: 1.5em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+}
+
+.circle {
+ border: 2px solid blueviolet;
+ background-color: yellowgreen;
+ width: 100px;
+ height: 100px;
+ outline: 2px solid orangered;
+ outline-offset: 4px;
+ margin: 2rem auto;
+ border-radius: 50px;
+}
+
+/* outline is different from border in a way that border takes up the space but outline 
+doesn't take up the space and hence it doesn't come under box-model.
+Outline is just a wrapper around the element and it is declared the same way as border. 
+We have another property called outline-offset that defines the space between the element 
+and the outline.  */
+
+/* when box-sizing is set to content-box, the width mentioned will only be taken up 
+by the content. ex: if width is 40px, 40px will be the width of the content, padding, border
+and margin will take up extra space. when box-sizing is set to border-box, the width 
+mentioned will be taken up by content, padding, border and also the margin. 
+ex: if width is 40px, 36px will be the width of the content, 1px will be the border, 1.5px 
+will be the padding and 1.5px will be the margin */
+
+/* here when margin is mentioned as 2px auto, top and bottom will be 2px but left and right 
+will be adjusted automatically and centered */
+
+/* border-radius is used to make a curved border or circles */
+

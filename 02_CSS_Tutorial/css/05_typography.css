@@ -1,0 +1,38 @@
+/* Typography is the way that the text is arranged and presented */
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Fuggles', cursive;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+   /* text-decoration: underline;
+   text-transform: lowercase;
+   text-align:justify; 
+   text-indent: 10em; 
+   line-height: 2; 
+   letter-spacing: 0.5em; 
+   word-spacing: 2em; 
+   font-size: 2rem;
+   font-weight: 900; 
+   font-weight:bolder; 
+   font-style: italic; */
+}
+
+/* /* text-decoration will have values like underline, overline, line-through, none
+text-tranform will have values like lowercase, uppercase, capitalize
+text-indent will indent the first line of the paragraph to the value set
+text-align will align the text to right, left or justify or center 
+line-height will add a gap between one line to other line of the value set
+letter-spacing will add gap between letters 
+word-spacing will add gap between words  
+font-size will set the size of the font
+font-weight will set the boldness of the font, it's default value is 400 
+font-style will set the style to italic, normal and oblique 
+font-family will set the family */

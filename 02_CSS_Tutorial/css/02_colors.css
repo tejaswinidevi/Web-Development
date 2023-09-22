@@ -1,0 +1,22 @@
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: aquamarine;
+    color: darkblue
+}
+
+h2 {
+    color: rgb(30, 0, 255)
+}
+
+p {
+    color: rgba(255,0,0,0.5)
+}
+
+p {
+    color: #ef0e61
+}
+
+
+/* line-height will set the height that should be occupied by each line */

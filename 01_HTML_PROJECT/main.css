@@ -4,3 +4,9 @@ table, tr, th, td, caption{
     border-collapse: collapse;
     padding: 0.5rem;
 }
+
+body {
+    margin: 7rem;
+    padding: 3rem;
+    border: 2px solid black;
+}

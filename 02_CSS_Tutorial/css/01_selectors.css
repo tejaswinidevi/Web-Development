@@ -1,0 +1,50 @@
+* {
+border: 1px solid red;
+}
+
+body{
+    font-size: 20px;
+}
+
+input, text-area, select, label {
+    font: inherit;
+}
+
+main {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p{
+    color:darkred
+}
+
+p{
+    color:green
+}
+
+h1, h2 {
+    color:deeppink
+}
+
+.highlight {
+ text-transform: uppercase;
+ background-color: gold;
+}
+
+.gray{
+    color:gray
+}
+
+#second{
+    font-style: italic;
+}
+
+/* Here text-transform will help in making the words either uppercase or lowercase */
+
+/* Here *-Universal Selector will get applied to all individual elements on the page 
+whereas some properties of parent elements(body) like border will only get applied 
+to the entire body element and not the individual child elements inside body */  
+
+/* inheritance will not work for form elements. Ex: font set in body will not be applied
+to form elements and in order to do that we need to explicitly mention the form elements 
+and set the property to inherit */

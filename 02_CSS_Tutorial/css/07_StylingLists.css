@@ -1,0 +1,28 @@
+body {
+    padding: 10em;
+    font-size: 2rem;
+}
+
+ol {
+    list-style-type:upper-latin
+}
+
+ul {
+  list-style-type:square;
+  text-align:right;
+  list-style-position: inside;
+  color: green;
+  line-height: 4em;
+  /* list-style-image: url(../images/images.jpeg);
+  list-style: square url(../images/images.jpeg) outside; */
+}
+
+ol li:nth-child(odd) {
+    color: red;
+}
+
+ul ::marker {
+    color: black;
+    font-size: 5rem;
+    content: 'Only Rs.5/- ';
+}
